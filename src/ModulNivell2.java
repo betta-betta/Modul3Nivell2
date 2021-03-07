@@ -11,11 +11,11 @@ public class ModulNivell2 {
 			//media=0;
 			for(int j=0;j<3;j++) 
 			{
-			System.out.println("Introdueix la nota del "+(i+1)+" alumne");
+			System.out.println("Introdueix la nota de "+(i+1)+" l'alumne");
 			 notaAlum= nota.nextInt();		 					 					 		
 			 	while(notaAlum<0 || notaAlum>10) 
 			 	{
-				 System.out.println("Introuce un valor entre 0 y 10");
+				 System.out.println("Introdueix un valor entre 0 i 10");
 				 notaAlum= nota.nextInt();
 			 	}		 
 			 	
@@ -32,13 +32,13 @@ public class ModulNivell2 {
 					{ 
 						media+=notesAlum[i][j];
 					}	
-						System.out.println("La media del alummno "+(i+1)+" es "+media/3);	
+						System.out.println("La mitjana de l'alumne "+(i+1)+" és "+media/3);	
 						if (media/3<5)
 						{
-							System.out.println("El alumno "+(i+1)+" ha SUSPENDIDO");
+							System.out.println("L'alumne "+(i+1)+" ha SUSPÈS");
 						}
 								else {
-									System.out.println("El alumno "+(i+1)+" ha APROBADO");
+									System.out.println("L'alumne "+(i+1)+" ha APROVAT");
 									 }
 						
 				}	
