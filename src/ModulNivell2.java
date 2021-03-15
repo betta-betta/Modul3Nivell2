@@ -38,7 +38,7 @@ public class ModulNivell2 {
 							System.out.println("L'alumne "+(i+1)+" ha SUSPÈS");
 						}
 								else {
-									System.out.println("L'alumne "+(i+1)+" ha APROVAT");
+									System.out.println("L'alumne "+(i+1)+" ha APROVAT ");
 									 }
 						
 				}	
