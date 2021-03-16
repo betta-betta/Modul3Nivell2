@@ -11,7 +11,7 @@ public class ModulNivell2 {
 			//media=0;
 			for(int j=0;j<3;j++) 
 			{
-			System.out.println("Introdueix la nota de "+(i+1)+" l'alumne");
+			System.out.println("Introdueix la nota de "+(i+1)+" l'alumne ");
 			 notaAlum= nota.nextInt();		 					 					 		
 			 	while(notaAlum<0 || notaAlum>10) 
 			 	{
